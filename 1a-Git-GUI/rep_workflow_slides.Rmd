@@ -12,10 +12,16 @@ editor_options:
   chunk_output_type: console
 ---
 ## What is a GUI
+For most of us (non-programmers): $GUI = Software$ 
+
+**G**raphical **U**ser **I**nterface   
 
 ## What is not a GUI?
 
 ## What is Git
+
+Git is mainly meant to work as a non-GUI (in the commmand line) software. 
+**However:** most of the key features can be used through a GUI. 
 
 ## What is Github
 
@@ -108,7 +114,7 @@ Christensen, Miguel & Freese (2018)
 1-  Create [github.com](github.com) account and sign in.   
 2-  Let's look at some **repos**.   
 3-  First way to access content: download.   
-4-  What if you want to have your own copy of the repo? Fork it!.  
+4-  What if you want to have your own copy of the repo? **Fork** it!.  
 5-  Now create your own repo. Initiate readme and make some edits.   
 
 ## Short Demo: We move to our local computer 
