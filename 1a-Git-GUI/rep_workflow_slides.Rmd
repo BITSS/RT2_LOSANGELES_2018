@@ -1,7 +1,7 @@
 ---
-title: 'Reproducible Coding Strategies and Intro to Version Control (Github)'
-author: "| Fernando Hoces de la Guardia\n| BITSS   \n| -\n| Slides at <https://github.com/BITSS/AIR2018>\n"
-date: "American Institutes for Research, May 2018"
+title: 'GUI Git'
+author: "| Fernando Hoces de la Guardia\n| BITSS   \n| -\n| Slides at <https://github.com/BITSS/RT2_LOSANGELES_2018>\n"
+date: "Los Angeles, September 2018"
 output:
   beamer_presentation:
     slide_level: 2
@@ -11,6 +11,16 @@ output:
 editor_options:
   chunk_output_type: console
 ---
+## What is a GUI
+
+## What is not a GUI?
+
+## What is Git
+
+## What is Github
+
+
+
 # Coding Suggestions 
 
 ## The Claerbout Principle
@@ -49,7 +59,7 @@ Christensen, Miguel & Freese (2018)
 - Don't leave clutter around-delete temporary or unnecessary intermediate objects. 
 \item You can use a prefix such as \texttt{x\_} or \texttt{temp\_} so you know which files or variables can easily be deleted later. Stata also has the \texttt{tempfile} and \texttt{tempvar} functionality.  
 - Every variable should have a label. (If allowed for by the program.)
--  Use relative directory paths (such as `./Data` not `C:/Users/garret/Documents/Project/Data`) 
+-  Use relative directory paths (such as `./Data` not `C:/Users/fernando/Documents/Project/Data`) 
 
 # Version Control
 
@@ -121,6 +131,4 @@ Some good habits:
 - [Great 2hr tutorial to Github by Jenny Bryan (git ninja)](https://www.rstudio.com/resources/videos/happy-git-and-gihub-for-the-user-tutorial/)  
 
 - [Documentation from Matthew Gentzkow Jesse Shapiro](http://web.stanford.edu/~gentzkow/research/CodeAndData.pdf)  and Karthik Ram's paper on [Git for Research](https://scfbm.biomedcentral.com/articles/10.1186/1751-0473-8-7) 
-
-- Come to 3-Day training (RT2) in Los Angeles ([in September](https://www.bitss.org/events/research-transparency-and-reproducibility-training-rt2-los-angeles/), [repo from last year](https://github.com/BITSS/RT2Berkeley2017))!
 
