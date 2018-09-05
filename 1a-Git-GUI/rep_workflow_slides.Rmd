@@ -11,21 +11,55 @@ output:
 editor_options:
   chunk_output_type: console
 ---
-## What is a GUI
-For most of us (non-programmers): $GUI = Software$ 
+## What is a GUI and why the bad reputaion
 
 **G**raphical **U**ser **I**nterface   
 
+- For most of us (non-programmers): $GUI = Software$  
+
+- GUIs are behind the popularization of personal computers. 
+
+- Unfortunatley GUIs are pretty bad at keeping a record of actions taken (bad for reproducibility)
+
 ## What is not a GUI?
+- Any software that is run in the command line (aka terminal, shell, bash, etc)  
 
-## What is Git
+\centering
+\includegraphics[height=1in]{../Images/command_line.png}
+  
 
-Git is mainly meant to work as a non-GUI (in the commmand line) software. 
+- Git was designed to run in the command line
+
+## What is Git 1/2
+
+- Git is a software that whose purpose is to track the **entire** history of the code of a project. 
+
+- Designed originally for software development, it has gained important traction in the research community. 
+
+- Main appeal: facilitates full reproducibility and collaboration. 
+
+- Git is mainly meant to work as a non-GUI (in the commmand line) software. 
 **However:** most of the key features can be used through a GUI. 
 
+## What is Git 2/2
+
+
+- By code git understands any type of plain text file (`myfile.R`, `myfile.do`, `.tex/.md/.txt/.csv/.etc`).
+
+- This types of files can be understood as "human readable" as machine and human see the same fie. 
+
+- Files that are "non-human readable" are called binary files (`myfile.docx`, `myfile.xlxs`, `.pdf/.exe/.dta/.etc`).
+
+- Git can detect changes in binary files, but it cannot show those changes.
+
 ## What is Github
+- Github is a company that provides two services (that we care of): 
+  - A web hosting service for all our files track with git (public free/private $ or free if academic).  
+  - A GUI software (Desktop App) that provides user friendly access to git.
 
+- Others hosting ss include: Bitbucket, GitLab, Gitkraken, etc. 
 
+- Other GUIs include: SourceTree, Gitkraken, Atom, RStudio.
 
 # Coding Suggestions 
 
@@ -124,6 +158,16 @@ Christensen, Miguel & Freese (2018)
 8- Push. Edit on github.com, and pull.   
 9- Simulate conflict and start from a fresh copy!
 
+## Three examples: 
+
+1 - Boring but instructive.   
+    Review: def repo, github.com, download, clone, destination folder, fork, create repo, commit, push, pull, delete & restart, search repo, download old version.   
+2 - Repeat but with a slightly more fun example. Collaborate.
+    Review: All of the above, plus: branch, merge, resolve conflicts, collaborate: same proj, fork model+PR
+    .  
+3 - Repeat with a real-life example. 
+    Review: All of the above, plus: how code looks like. 
+
 ## Now go and explore!
 Some good habits:   
 - Commit often (<1hr)  
@@ -132,9 +176,9 @@ Some good habits:
 
 
 ## Want to learn more: 
+
 - [Great 20 min intro to Git by Alice Bartlett](https://www.youtube.com/watch?v=eWxxfttcMts)  
 
 - [Great 2hr tutorial to Github by Jenny Bryan (git ninja)](https://www.rstudio.com/resources/videos/happy-git-and-gihub-for-the-user-tutorial/)  
 
-- [Documentation from Matthew Gentzkow Jesse Shapiro](http://web.stanford.edu/~gentzkow/research/CodeAndData.pdf)  and Karthik Ram's paper on [Git for Research](https://scfbm.biomedcentral.com/articles/10.1186/1751-0473-8-7) 
-
+- Jenny Bryan's [Happy Git](http://happygitwithr.com/); [Documentation from Matthew Gentzkow Jesse Shapiro](http://web.stanford.edu/~gentzkow/research/CodeAndData.pdf); Karthik Ram's paper on [Git for Research](https://scfbm.biomedcentral.com/articles/10.1186/1751-0473-8-7) 
