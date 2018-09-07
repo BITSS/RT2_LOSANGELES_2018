@@ -1,7 +1,7 @@
 ---
 title: "Dynamic Documents for Open Policy Analysis"
 author: "| Fernando Hoces de la Guardia\n| BITSS   \n| -\n| Slides at \n|  <https://github.com/BITSS/AIR2018>\n"
-date: "American Institutes for Research, May 2018"
+date: "RT2, Los Angeles \n September 2018"
 output:
   beamer_presentation:
     fig_caption: no
@@ -12,54 +12,6 @@ output:
 header-includes:
 - \hypersetup{colorlinks, linkcolor=, urlcolor=blue, citecolor=blue}
 ---
-
-# Open Policy Analysis
-
-## Research Transparency/Open Science
-
-**Issues:**  
-
-- Scientific misconduct  
-- Publication Bias  
-- Specification searching / P-Hacking  
-- Replications problems  
-
-**Solutions:**
-
-- Ethical research
-- Registrations
-- PAPs
-- Guidelines and Protocols
-
-
-## New Dimension to Increase Transparency and Reproducibility: Policy Analysis
-\centering
-\includegraphics[height=3.2in]{../Images/fig1.png}
-
-
-## Credibility Crisis
-\centering
-\includegraphics[height=3.2in]{../Images/fig2.png}
-
-
-
-## Our Proposal for Open Policy Analysis
-- Increase awareness (Motivational paper [here.](https://osf.io/preprints/bitss/jnyqh))
-
-- Build guidelines and curriculum for open for policy analysis (similar to the TOP Guidelines for research). 
-
-- Partner with agencies/think tanks interested in implementing these ideas.
-[Example here.](https://rpubs.com/fhoces/dd_cbo_mw)
-
-- Iterate.
-
-## Traditional Policy Analysis
-\centering
-\includegraphics[height=3.2in]{../Images/traditional.png}
-
-## Open Policy Analysis
-\centering
-\includegraphics[height=3.2in]{../Images/open.png}
 
 
 # Dynamic Documents For Computational Reproducibility
@@ -369,5 +321,5 @@ here goes the code
 ## Final Remarks & More Resources
  - With DD we can achieve a one-click reproducible workflow.
  - This is particularly helpful to understand/present results that are hard to digest.
- - More great examples in the workshop repo (`4-moredynamicdocs`).
+ - More great examples in the workshop repo (`x-moredynamicdocs`).
  - Want to learn more: [great free books](https://bookdown.org/) (can you guess how they were written?)
