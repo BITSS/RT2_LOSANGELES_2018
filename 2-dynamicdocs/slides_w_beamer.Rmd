@@ -315,6 +315,13 @@ here goes the code
 4- Open Stata (15), set working directory, and type `dyndoc "filepath/dyndoc_debt_growth/debt and growth stata dyndoc.do", replace`  
 5- Go to the folder and click in `debt and growth stata dyndoc.html` 
 
+## Bonus truck: NBER Working Papers!
+- Remeber the example from yesterday on the half bake analysis of NBER papers in github?
+
+- Fork and clone the repo one more time: 
+[github.com/fhoces/nber_trends](https://github.com/fhoces/nber_trends)
+
+- Now run the `.Rmd` file instead. 
 
 # Final Remarks & More Resources
 

@@ -205,7 +205,7 @@ talk about undo here
 Description:   
 
 - Half baked project, forgoten from a few years.    
-- Exploratory analysis of publication trends in NBER working paper series. Back then inspired by a paper from [DelaVigna and Card](https://eml.berkeley.edu/~sdellavi/wp/CardDellaVignaTop5PapersJEL2013.pdf).  
+- Exploratory analysis of publication trends in NBER working paper series. Back then inspired by a paper from [DellaVigna and Card](https://eml.berkeley.edu/~sdellavi/wp/CardDellaVignaTop5PapersJEL2013.pdf).  
 - Now there is more literature around this: [Chari and Goldsmith-Pinkham](http://www.nber.org/papers/w23953).   
 
 - I will use github to share my work with you, do a little excercise, and invite you to collaborate. 
