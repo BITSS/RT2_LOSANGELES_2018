@@ -337,7 +337,11 @@ same birthday?
 \end{quote}
 
 \begin{quote}
-Is it something like \(\frac{1}{365} \times N =\) 0.112?
+There are 37 in this room.
+\end{quote}
+
+\begin{quote}
+Is it something like \(\frac{1}{365} \times 37=\) 0.101?
 \end{quote}
 
 \end{frame}
@@ -380,7 +384,7 @@ brief description.
 
 Actually the math says otherwise: \begin{align} 
  1 -  p(n) &= 1 \times \left(1-\frac{1}{365}\right) \times \left(1-\frac{2}{365}\right) \times \cdots \times \left(1-\frac{n-1}{365}\right) \nonumber  \\  &= \frac{ 365 \times 364 \times \cdots \times (365-n+1) }{ 365^n } \nonumber \\ &= \frac{ 365! }{ 365^n (365-n)!} = \frac{n!\cdot\binom{365}{n}}{365^n}\\
-p(n= 41) &= 0.903  \nonumber
+p(n= 37) &= 0.849  \nonumber
 \end{align}
 
 \end{frame}
@@ -408,10 +412,10 @@ solutions into your dynamic document.
 \begin{frame}{Don't like math? Let's run a simple simulation!}
 \protect\hypertarget{dont-like-math-lets-run-a-simple-simulation}{}
 
-1 - Simulate 10,000 rooms with \(n = 41\) random birthdays, and store
+1 - Simulate 10,000 rooms with \(n = 37\) random birthdays, and store
 the results in matrix where each row represents a room.\\
 2 - For each room (row) compute the number of unique birthdays.\\
-3 - Compute the average number of times a room has 41 unique birthdays,
+3 - Compute the average number of times a room has 37 unique birthdays,
 across 10,000 simulations, and report the complement.
 
 \end{frame}
@@ -443,7 +447,7 @@ across 10,000 simulations, and report the complement.
 \end{Shaded}
 
 \begin{verbatim}
-## [1] 0.727
+## [1] 0.7267
 \end{verbatim}
 
 \end{frame}
@@ -459,7 +463,7 @@ across 10,000 simulations, and report the complement.
 \item
   However the true probability is of \(p(n= 31) = 0.73\)
 \item
-  And the simulated probability is of 0.7288
+  And the simulated probability is of 0.7336
 \end{itemize}
 
 \end{frame}

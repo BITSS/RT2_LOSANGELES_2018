@@ -69,7 +69,7 @@ output: html_document
 ```  
 
 ```{r global pars, eval=TRUE, echo=FALSE, results='hide'}
-n.pers = 41
+n.pers = 37
 ```  
 
 
@@ -114,7 +114,9 @@ As an illustration lets write a report using the participants in this workshop t
 
 >What is the probability that at least two people this room share the same birthday?
 
->Is it something like $\frac{1}{365} \times N =$   `r round(1/365 * n.pers, 3)`?
+>There are `r n.pers` in this room. 
+
+>Is it something like $\frac{1}{365} \times  `r n.pers`=$   `r round(1/365 * n.pers, 3)`?
 
 ## Goals for excercise #1  
 
