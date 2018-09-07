@@ -57,7 +57,7 @@ Begin with a logical file structure
   
 - Git was designed to run in the command line.
 
-- Today we will learn Git without the commmand line.
+- Today we will learn Git **without** the commmand line.
 
 ## What is Git 1/2
 
@@ -67,7 +67,7 @@ Begin with a logical file structure
 
 - Main appeal: facilitates full reproducibility and collaboration. 
 
-- Git is mainly meant to work as a non-GUI (in the commmand line) software. 
+- Git is mainly meant to work as a non-GUI (in the commmand line) software.   
 **However:** most of the key features can be used through a GUI. 
 
 ## What is Git 2/2
@@ -161,7 +161,7 @@ talk about undo here
 6- Clone the it. Explore the files and location.   
 7- Create new files, edit. And commit. Edit again, and commit again.   
 8- Push. Edit on github.com, and pull.   
-9- Simulate conflict (between local and remote) and start from a fresh copy!
+9- Simulate conflict (between local and remote) and start from a fresh copy!  
 10- For this tutorial, best way to access previous version: explore in github.com and download.
 
 
