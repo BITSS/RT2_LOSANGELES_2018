@@ -1,6 +1,6 @@
 ---
-title: "Dynamic Documents for Open Policy Analysis"
-author: "| Fernando Hoces de la Guardia\n| BITSS   \n| -\n| Slides at \n|  <https://github.com/BITSS/AIR2018>\n"
+title: "Dynamic Documents using Stata and R: Hands-On"
+author: "| Fernando Hoces de la Guardia\n| BITSS   \n| -\n| Slides at \n|  <https://github.com/BITSS/RT2_LOSANGELES_2018>\n"
 date: "RT2, Los Angeles \n September 2018"
 output:
   beamer_presentation:
@@ -69,7 +69,7 @@ output: html_document
 ```  
 
 ```{r global pars, eval=TRUE, echo=FALSE, results='hide'}
-n.pers = 14
+n.pers = 41
 ```  
 
 
