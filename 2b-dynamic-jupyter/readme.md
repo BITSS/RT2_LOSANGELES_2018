@@ -15,6 +15,7 @@ Etherpad for the workshop: <https://pad.carpentries.org/rt2-dynamic-jupyter>
 
 In this folder:
 
+~~~
 ├── data
 │   └── gapminderDataFiveYear.tsv
 ├── data-campy-py-notebook.pdf - cheatsheet for jupyter from datacamp
@@ -46,3 +47,4 @@ In this folder:
 │   ├── jupyter-logo.png
 │   └── readme.md
 └── readme.md
+~~~
