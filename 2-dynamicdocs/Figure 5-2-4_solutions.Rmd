@@ -30,7 +30,7 @@ We want to reproduce Figure 5.2.4 from MHE. This figure was originally produced 
 
 First download the data from the author's website (will migrate to external data repo in the future!), and load it in to R. 
 
-```{r download data, eval=FALSE, echo=TRUE, warning=FALSE, results='hide', message=FALSE}
+```{r download data, eval=TRUE, echo=TRUE, warning=FALSE, results='hide', message=FALSE}
 # Download the data and unzip it
 download.file('http://economics.mit.edu/~dautor/outsourcingatwill_table7.zip', 
               'outsourcingatwill_table7.zip')
