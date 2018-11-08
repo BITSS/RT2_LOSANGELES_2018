@@ -10,8 +10,8 @@ output:
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
-set.seed = 1234
-n.pers = 40
+set.seed(1234)
+n.pers = 4
 ```
 
 # Birthday problem  
@@ -22,12 +22,13 @@ Is is $\frac{1}{365} \times `r n.pers` = `r 1/365 * n.pers`$
 
 ## Analytical solution  
 
-But actually when we compute the math. We get  an  surprising result:
+But actually when we compute the math. We get  an  surprising result: 
 
 \begin{align}   
  1 - \bar p(n) &= 1 \times \left(1-\frac{1}{365}\right) \times \left(1-\frac{2}{365}\right) \times \cdots \times \left(1-\frac{n-1}{365}\right) \nonumber  \\  &= \frac{ 365 \times 364 \times \cdots \times (365-n+1) }{ 365^n } \nonumber \\ &= \frac{ 365! }{ 365^n (365-n)!} = \frac{n!\cdot\binom{365}{n}}{365^n}\\
 p(n= `r n.pers`) &= `r  round(1 - factorial(n.pers) * choose(365,n.pers)/ 365^n.pers, 3)`  \nonumber
 \end{align}
+
 
 ## Simulations  
 

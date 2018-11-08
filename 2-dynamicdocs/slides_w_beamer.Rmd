@@ -69,7 +69,7 @@ output: html_document
 ```  
 
 ```{r global pars, eval=TRUE, echo=FALSE, results='hide'}
-n.pers = 23
+n.pers = 4
 ```  
 
 
@@ -184,7 +184,7 @@ birthday.prob = function(n.pers, n.sims) {
   result = 1 - mean(all.different)
 return(result)
 }
-n.pers.param = 23; n.sims.param = 1e4
+n.pers.param = n.pers; n.sims.param = 1e4
 birthday.prob(n.pers.param,n.sims.param)
 ```
 
