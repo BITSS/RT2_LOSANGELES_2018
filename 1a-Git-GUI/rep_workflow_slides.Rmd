@@ -22,8 +22,7 @@ editor_options:
 ## Organizing Principles  
 Christensen, Miguel & Freese (2018)  
 
-
-1 - Use code (scripts), don't work by hand (Excel/spreadsheet ).  
+1 - Use code (scripts), don't work by hand (Excel/spreadsheet).  
 2 - Consider not saving statistical output, and just saving the code and raw data that generates it.  
 3 - Reproducibility--on your own machine across multiple runs, across machines, across researchers.   
 
